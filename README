@@ -1,0 +1,12 @@
+RUN SCRIPT:
+
+./deployment.sh -p voodoo_dev
+
+params:
+1) -p, --profile: aws profile
+
+
+AWS Account Id
+
+1) voodoo dev
+    898590847922
