@@ -10,3 +10,10 @@ AWS Account Id
 
 1) voodoo dev
     898590847922
+
+
+
+CF Deploy command:
+
+aws cloudformation deploy --profile voodoo_dev --template-file service-fargate.yaml --stack-name fargate-
+demo-service --capabilities CAPABILITY_IAM
